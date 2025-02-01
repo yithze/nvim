@@ -15,8 +15,8 @@ vim.opt.rtp:prepend(lazypath)
 require("set")
 require("remap")
 require("lazy").setup("plugins")
--- vim.cmd('source ~/.config/nvim/colors/256_noir.vim')
-vim.cmd('colorscheme habamax.nvim')
+vim.cmd('source ~/.config/nvim/colors/yithze.vim')
+-- vim.cmd('colorscheme habamax')
 vim.cmd('source ~/.config/nvim/status2.vim')
 
 
