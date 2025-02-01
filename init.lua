@@ -11,11 +11,12 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+
 require("set")
 require("remap")
 require("lazy").setup("plugins")
-vim.cmd('source ~/.config/nvim/colors/256_noir.vim')
--- vim.cmd('colorscheme pywal16')
+-- vim.cmd('source ~/.config/nvim/colors/256_noir.vim')
+vim.cmd('colorscheme habamax.nvim')
 vim.cmd('source ~/.config/nvim/status2.vim')
 
 

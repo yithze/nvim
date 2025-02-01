@@ -1,6 +1,1 @@
-return {
-  "folke/tokyonight.nvim",
-  lazy = false,
-  priority = 1000,
-  opts = {},
-}
+return { "ntk148v/habamax.nvim", dependencies={ "rktjmp/lush.nvim" } }
