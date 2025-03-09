@@ -16,7 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 require("set")
 require("remap")
 require("lazy").setup("plugins")
-vim.cmd('source ~/.config/nvim/colors/hazkel.vim')
+vim.cmd('source ~/.config/nvim/colors/base16-black-metal-khold.vim')
 -- vim.cmd('colorscheme habamax.nvim')
 vim.cmd('source ~/.config/nvim/status2.vim')
 
